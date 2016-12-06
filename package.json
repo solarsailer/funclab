@@ -1,0 +1,20 @@
+{
+  "name": "funclab",
+  "description": "Functional Programming Playground",
+  "author": "Matthieu Oger",
+  "version": "0.0.1",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solarsailer/funclab.git"
+  },
+  "scripts": {
+    "test": "jasmine"
+  },
+  "devDependencies": {
+    "jasmine": "^2.5.2"
+  },
+  "standard": {
+    "globals": ["describe", "it", "expect"]
+  }
+}

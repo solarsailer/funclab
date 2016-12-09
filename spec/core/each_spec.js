@@ -5,15 +5,15 @@ const each = require('../../lib/each')
 // -------------------------------------------------------------
 
 describe('#each', () => {
-  var list = ['1', '2', '3']
+  var data = ['1', '2', '3']
 
   it('should get each value of a list sequentially', () => {
     var index = 0
-    each(list, item => {
+    each(item => {
       expect(+item).toBe(index + 1)
       index += 1
-    })
+    }, data)
 
-    expect(index).toBe(list.length)
+    expect(index).toBe(data.length)
   })
 })

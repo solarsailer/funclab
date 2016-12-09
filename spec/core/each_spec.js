@@ -5,7 +5,7 @@ describe('#each', () => {
 
   it('should get each value of a list sequentially', () => {
     var index = 0
-    each(list, (item) => {
+    each(list, item => {
       expect(+item).toBe(index + 1)
       index += 1
     })

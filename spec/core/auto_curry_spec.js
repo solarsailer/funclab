@@ -1,5 +1,9 @@
 const autoCurry = require('../../lib/auto_curry')
 
+// -------------------------------------------------------------
+// Spec.
+// -------------------------------------------------------------
+
 describe('#autoCurry', () => {
   var add = autoCurry(function (a, b) { return a + b })
 
